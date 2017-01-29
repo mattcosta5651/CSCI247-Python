@@ -11,23 +11,27 @@ repeat = Functions.userInput("Enter the chorus repeat", "int")
 
 counter = 0
 for verse in verses:
-	song.append(verse)
+	if verse.find("cookies") != -1:
+		verse = verse.replace("cookies", "_______")
+
+	song.append(verse.upper())
+	
 	counter = counter+1
 	if counter == 4:
-		song.append((chorus+ " ") * repeat + chorus)
+		song.append((chorus.lower()+ " ") * repeat + chorus.lower())
 	else:
-		song.append((chorus+ " ") * repeat)
+		song.append((chorus.lower()+ " ") * repeat)
 
 song.append("...one more time...")
 
 counter = 0
 for verse in verses:
-	song.append(verse)
+	song.append(verse.upper())
 	counter = counter+1
 	if counter == 4:
-		song.append((chorus+ " ") * repeat + chorus)
+		song.append((chorus.lower()+ " ") * repeat + chorus.lower())
 	else:
-		song.append((chorus+ " ") * repeat)
+		song.append((chorus.lower()+ " ") * repeat)
 
 
 print song
