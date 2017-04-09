@@ -1,0 +1,10 @@
+[
+	{"Course" : "CSCI 247", "Title" : "Programming in Python",	"Credits" : "3", "Location": ["ONLINE"], "Professor" : "Cohen"},
+	{"Course" : "CSCI 328", "Title" : "Object Oriented Design",	"Credits" : "3", "Location": ["ONLINE", "Bowman Hall 106"], "Professor" : "Cohen"},
+	{"Course" : "CSCI 343", "Title" : "Server-Side Software Development",	"Credits" : "3", "Location" : ["ONLINE", "Bowman Hall 120"], "Professor" : "Cohen"},
+	{"Course" : "CSCI 347", "Title" : "Programming Language Paradigm",	"Credits" : "3", "Location" : ["ONLINE"], "Professor" : "Cohen"},	
+	{"Course" : "CSCI 362", "Title" : "Operating Systems",	"Credits" : "3", "Location": ["Bowman Hall 106"], "Professor" : "Cohen"},
+	{"Course" : "CSCI 390", "Title" : "Junior Qualification Synopsis",	"Credits" : "1", "Location": ["Summer"], "Professor" : "Cohen"},
+	{"Course" : "CSCI 462", "Title" : "Senior Project II",	"Credits" : "1", "Location": ["Bowman Hall 106"], "Professor" : "Eve"},
+	{"Course" : "MUSI 251", "Title" : "Introduction to Music",	"Credits" : 3, "Location": ["Church Street Center 202"], "Professor" : "Dilthey"}	
+]
